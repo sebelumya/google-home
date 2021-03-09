@@ -1,0 +1,82 @@
+main {
+    font-family: arial;
+}
+
+#navbar {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 0px;
+    margin-right: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: auto;
+    width: auto;
+    padding-top: 0px;
+}
+
+
+#searchbox {
+    display: block;
+     width: 35%;
+    place-items: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 20px;
+    border-radius: solid;
+    border-left: none;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.bahasa {
+    background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+    
+}
+.bahasa2{
+    background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+}
+#bawah {
+    display: block;
+    text-align:center;
+    text-size-adjust: 100px;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 100px;
+}
