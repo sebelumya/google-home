@@ -3,10 +3,23 @@ main {
 }
 
 #navbar {
-    list-style-type: none;
-    display: inline-block;
     padding-top: 0px;
+    list-style-type: none;
     margin-right: 0px;
+    text-align: right;
+}
+.gambar{
+    display: inline;
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+    glyph-orientation-horizontal: unset;
+}
+.mail{
+    text-align: right;
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
 }
 
 .center {
@@ -19,10 +32,10 @@ main {
     padding-top: 0px;
 }
 
-
 #searchbox {
     display: block;
-     width: 35%;
+    width: 35%;
+    grid-template-columns: auto;
     place-items: center;
     padding: 10px;
     color: rgb(0, 0, 0);
@@ -31,52 +44,83 @@ main {
     border-radius: solid;
     border-left: none;
     cursor: pointer;
-    margin-left: 0px;
+    margin-left: 400px;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: auto;
     text-align: center;
 }
 
+.submit_search {
+    display: inline;
+    grid-template-columns: auto;
+    width: 20%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 20px;
+    border-radius: solid;
+    border-left: none;
+    cursor: pointer;
+    margin-left: 365px;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.submit_feeling {
+    display: inline;
+    width: 20%;
+    place-items: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 20px;
+    border-radius: solid;
+    border-left: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+}
+
+}
+
 .bahasa {
     background-color: #f8f9fa;
-border: 1px solid #f8f9fa;
-border-radius: 4px;
-color: #3c4043;
-font-family: arial,sans-serif;
-font-size: 14px;
-margin: 11px 4px;
-padding: 0 16px;
-line-height: 27px;
-height: 36px;
-min-width: 54px;
-text-align: center;
-cursor: pointer;
-user-select: none;
-    
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
-.bahasa2{
+
+.bahasa2 { display: inline;
     background-color: #f8f9fa;
-border: 1px solid #f8f9fa;
-border-radius: 4px;
-color: #3c4043;
-font-family: arial,sans-serif;
-font-size: 14px;
-margin: 11px 4px;
-padding: 0 16px;
-line-height: 27px;
-height: 36px;
-min-width: 54px;
-text-align: center;
-cursor: pointer;
-user-select: none;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
-#bawah {
-    display: block;
-    text-align:center;
-    text-size-adjust: 100px;
+
+#offer {
+    display: flex;
+    text-align: center;
+    text-size-adjust: auto;
     margin-left: 400px;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
